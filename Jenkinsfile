@@ -1,8 +1,6 @@
-def NAME="PUNEET"
+def NAME="Kitu"
 pipeline {
-    agent {
-        label 'slave1'
-    }
+   agent any
 
     stages {
         stage('Git Checkout') {
